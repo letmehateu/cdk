@@ -20,8 +20,8 @@ In some cases, you might need to write code in `Go`. When that happens, the code
 
 For EVM-based integrations, there are two relevant smart contracts:
 
-- [Global exit root](https://github.com/0xPolygonHermez/zkevm-contracts/blob/feature/sovereign-bridge/contracts/v2/sovereignChains/GlobalExitRootManagerL2SovereignChain.sol)
-- [Bridge](https://github.com/0xPolygonHermez/zkevm-contracts/blob/feature/sovereign-bridge/contracts/v2/sovereignChains/BridgeL2SovereignChain.sol)
+- [Global exit root](https://github.com/agglayer/agglayer-contracts/blob/feature/sovereign-bridge/contracts/v2/sovereignChains/GlobalExitRootManagerL2SovereignChain.sol)
+- [Bridge](https://github.com/agglayer/agglayer-contracts/blob/feature/sovereign-bridge/contracts/v2/sovereignChains/BridgeL2SovereignChain.sol)
 
 The integrated system needs to implement similar functionality. It doesn't have to be a smart contract per se, and it doesn't need to be split into two parts, but it should perform the functions that we list here:
 
